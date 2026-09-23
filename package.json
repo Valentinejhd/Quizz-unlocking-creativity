@@ -1,0 +1,13 @@
+{
+  "name": "bridging-generations-live-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A live classroom quiz about teen and older-adult social connection.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
