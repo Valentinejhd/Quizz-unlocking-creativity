@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: common-ground-class-quiz
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/info
+    autoDeployTrigger: commit
